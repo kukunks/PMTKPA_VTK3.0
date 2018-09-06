@@ -1,0 +1,601 @@
+﻿<html>
+  <head>
+    <style type="text/css">table{border-collapse:collapse;border-spacing:0;empty-cells:show}
+.X0{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X1{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:center}
+.X2{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X3{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-weight:bold;vertical-align:bottom;text-align:right}
+.X4{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:right}
+.X5{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(255,255,255);height:25;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X6{color:rgb(0,0,0);font-family:Times New Roman;font-size:14pt;background-color:rgb(255,255,255);height:25;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-weight:bold;vertical-align:bottom;text-align:general}
+.X7{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:25;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:left}
+.X8{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:left}
+.X9{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X10{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-style:italic;vertical-align:bottom;text-align:left}
+.X11{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:17;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-style:italic;vertical-align:bottom;text-align:general}
+.X12{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-bottom:solid;border-bottom-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X13{color:rgb(0,0,0);font-family:Times New Roman;font-size:9pt;background-color:rgb(255,255,255);height:17;border-bottom:solid;border-bottom-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X14{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(255,255,255);height:17;border-bottom:solid;border-bottom-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X15{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(192,192,192);height:27;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:center;text-align:center}
+.X16{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(192,192,192);height:24;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:center;text-align:center}
+.X17{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:right}
+.X18{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:left}
+.X19{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X20{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X21{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X22{color:rgb(0,0,0);font-family:Times New Roman;font-size:8pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X23{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X24{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X25{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-weight:bold;vertical-align:bottom;text-align:center}
+.X26{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-left:solid;border-left-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X27{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-weight:bold;vertical-align:bottom;text-align:general}
+.X28{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:center}
+.X29{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);font-weight:bold;vertical-align:center;text-align:center}
+.X30{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:center}
+.X31{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:center}
+.X32{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:center}
+.X33{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-left:solid;border-left-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X34{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-bottom:solid;border-bottom-width:1;border-right:solid;border-right-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}
+.X35{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:17;border-top:solid;border-top-width:1;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:center}
+.X36{color:rgb(0,0,0);font-family:Times New Roman;font-size:10pt;background-color:rgb(255,255,255);height:19;border-top-color:rgb(0,0,0);border-bottom-color:rgb(0,0,0);border-left-color:rgb(0,0,0);border-right-color:rgb(0,0,0);vertical-align:bottom;text-align:general}</style>
+  </head>
+  <h2 style="color:red"></h2>
+  <body>
+    <table cellspacing="0">
+      <Col width="27" />
+      <Col width="140" />
+      <Col width="41" />
+      <Col width="33" />
+      <Col width="34" />
+      <Col width="32" />
+      <Col width="33" />
+      <Col width="44" />
+      <Col width="56" />
+      <Col width="41" />
+      <Col width="50" />
+      <Col width="80" />
+      <tr>
+        <td class="X0">&nbsp;</td>
+        <td class="X1" COLSPAN="2">PHÒNG GD-ĐT HAI CHAU</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X0">&nbsp;</td>
+        <td class="X1" COLSPAN="4">TRƯỜNG MẦM NON HƯỚNG DƯƠNG</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X4">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X5">&nbsp;</td>
+        <td class="X5">&nbsp;</td>
+        <td class="X6" COLSPAN="9">BÁO CÁO DƯỠNG CHẤT TỔNG HỢP</td>
+        <td class="X5">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X8" COLSPAN="4">Thứ hai, ngày 20/10/2015</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X8" COLSPAN="2">Độ tuổi: Nhà trẻ</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X2" COLSPAN="2">Số trẻ: 30</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X8" COLSPAN="3">Số tiền mỗi trẻ: 25000 đ</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X10" COLSPAN="3">Bữa chính 1: Cơm trắng: 
+Món mặn: Thịt hầm bí đỏ + trứng rán
+Canh: Rau nấu tôm</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X10" COLSPAN="4">Bữa chính 2: Cháo gạo đậu xanh hầm xương</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X10" COLSPAN="2">Bữa phụ: Sữa Yomost</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X10">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X9" COLSPAN="2">Tổng tiền bữa ăn: 749999</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X9" COLSPAN="4">Tổng tiền được chi: 750000</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X9">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X10" COLSPAN="2">Số dư đầu ngày: 0</td>
+        <td class="X9">&nbsp;</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X11" COLSPAN="3">Số dư cuối ngày: 1</td>
+        <td class="X2">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+        <td class="X0">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X12">&nbsp;</td>
+        <td class="X13">&nbsp;</td>
+        <td class="X12">&nbsp;</td>
+        <td class="X12">&nbsp;</td>
+        <td class="X13">&nbsp;</td>
+        <td class="X13">&nbsp;</td>
+        <td class="X12">&nbsp;</td>
+        <td class="X14">&nbsp;</td>
+        <td class="X14">&nbsp;</td>
+        <td class="X14">&nbsp;</td>
+        <td class="X14">&nbsp;</td>
+        <td class="X14">&nbsp;</td>
+      </tr>
+      <tr>
+        <td ROWSPAN="2" class="X15">STT</td>
+        <td ROWSPAN="2" class="X15">Tên thực phẩm</td>
+        <td ROWSPAN="2" class="X15">Năng lượng (Kcal)</td>
+        <td COLSPAN="2" class="X15">Đạm (g)</td>
+        <td COLSPAN="2" class="X15">Béo (g)</td>
+        <td ROWSPAN="2" class="X15">Đường bột (g)</td>
+        <td ROWSPAN="2" class="X15">Trọng lượng tịnh</td>
+        <td ROWSPAN="2" class="X15">Trọng lượng thực tế</td>
+        <td ROWSPAN="2" class="X15">Đơn giá (đ/kg)</td>
+        <td ROWSPAN="2" class="X15">Thành tiền (đ)</td>
+      </tr>
+      <tr>
+        <td class="X16">ĐV</td>
+        <td class="X16">TV</td>
+        <td class="X16">ĐV</td>
+        <td class="X16">TV</td>
+      </tr>
+      <tr>
+        <td class="X17">1</td>
+        <td class="X18">Dầu thảo mộc</td>
+        <td class="X17">1076.4</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">119.6</td>
+        <td class="X17">0</td>
+        <td class="X17">0.12</td>
+        <td class="X17">0.12</td>
+        <td class="X17">37000</td>
+        <td class="X17">4440</td>
+      </tr>
+      <tr>
+        <td class="X17">2</td>
+        <td class="X18">Đường cát</td>
+        <td class="X17">1020.8</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">2.9</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">252.1</td>
+        <td class="X17">0.266538<span style="display:none">461538462</span></td>
+        <td class="X17">0.2665<span style="display:none">38461538462</span></td>
+        <td class="X17">20000</td>
+        <td class="X17">5330.76923076924</td>
+      </tr>
+      <tr>
+        <td class="X17">3</td>
+        <td class="X18">Magi</td>
+        <td class="X17">134.2</td>
+        <td class="X17">33.6</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">0.335538<span style="display:none">461538462</span></td>
+        <td class="X17">0.3355<span style="display:none">38461538462</span></td>
+        <td class="X17">50000</td>
+        <td class="X17">16776.9230769231</td>
+      </tr>
+      <tr>
+        <td class="X17">4</td>
+        <td class="X18">Muối</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">0</td>
+        <td class="X17">0.15</td>
+        <td class="X17">0.15</td>
+        <td class="X17">15000</td>
+        <td class="X17">2250</td>
+      </tr>
+      <tr>
+        <td class="X17">5</td>
+        <td class="X18">Nước mắm  Cá ( đặc biệt)</td>
+        <td class="X17">27</td>
+        <td class="X17">6.8</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">0.045</td>
+        <td class="X17">0.045</td>
+        <td class="X17">25000</td>
+        <td class="X17">1125</td>
+      </tr>
+      <tr>
+        <td class="X17">6</td>
+        <td class="X18">Gạo tẻ máy</td>
+        <td class="X17" COLSPAN="2">12778.2</td>
+        <td class="X17">275.1</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">36.2</td>
+        <td class="X17">2758.3</td>
+        <td class="X17">3.619875</td>
+        <td class="X17">3.675</td>
+        <td class="X17">18000</td>
+        <td class="X17">66150</td>
+      </tr>
+      <tr>
+        <td class="X17">7</td>
+        <td class="X18">Đậu xanh hạt</td>
+        <td class="X17">987.8</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">68.8</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">7.1</td>
+        <td class="X17">156.1</td>
+        <td class="X17">0.294</td>
+        <td class="X17">0.3</td>
+        <td class="X17">26000</td>
+        <td class="X17">7800</td>
+      </tr>
+      <tr>
+        <td class="X17">8</td>
+        <td class="X18">Bí ngô ( Bí đỏ )</td>
+        <td class="X17">816.2</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">9.1</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">187.4</td>
+        <td class="X17">3.023076<span style="display:none">92307692</span></td>
+        <td class="X17">3.0230<span style="display:none">7692307692</span></td>
+        <td class="X17">3000</td>
+        <td class="X17">9069.23076923076</td>
+      </tr>
+      <tr>
+        <td class="X17">9</td>
+        <td class="X18">Hành củ tươi</td>
+        <td class="X17">116.2</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">6</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">22.3</td>
+        <td class="X17">0.464769<span style="display:none">23076923</span></td>
+        <td class="X17">0.6115<span style="display:none">38461538461</span></td>
+        <td class="X17">20000</td>
+        <td class="X17">12230.7692307692</td>
+      </tr>
+      <tr>
+        <td class="X17">10</td>
+        <td class="X18">Hành lá</td>
+        <td class="X17">66.2</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">3.7</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">12.4</td>
+        <td class="X17">0.288</td>
+        <td class="X17">0.36</td>
+        <td class="X17">17000</td>
+        <td class="X17">6120</td>
+      </tr>
+      <tr>
+        <td class="X17">11</td>
+        <td class="X18">Rau má rừng</td>
+        <td class="X17">346.2</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">42.9</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">42.9</td>
+        <td class="X17">1.384615<span style="display:none">38461538</span></td>
+        <td class="X17">1.3846<span style="display:none">1538461538</span></td>
+        <td class="X17">10000</td>
+        <td class="X17">13846.1538461538</td>
+      </tr>
+      <tr>
+        <td class="X17">12</td>
+        <td class="X18">Thịt nạc dăm</td>
+        <td class="X17">2894.4</td>
+        <td class="X17">183.6</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">238.7</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">1.08</td>
+        <td class="X17">1.08</td>
+        <td class="X17">80000</td>
+        <td class="X17">86400</td>
+      </tr>
+      <tr>
+        <td class="X17">13</td>
+        <td class="X18">Mỡ lợn nước</td>
+        <td class="X17">417.2</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">44.9</td>
+        <td class="X17">0</td>
+        <td class="X17">0.045</td>
+        <td class="X17">0.045</td>
+        <td class="X17">20000</td>
+        <td class="X17">900</td>
+      </tr>
+      <tr>
+        <td class="X17">14</td>
+        <td class="X18">Xương lợn loại 1 (30:70)</td>
+        <td class="X17">945</td>
+        <td class="X17">60</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">78.1</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">1.211538<span style="display:none">46153846</span></td>
+        <td class="X17">1.2115<span style="display:none">3846153846</span></td>
+        <td class="X17">60000</td>
+        <td class="X17">72692.3076923076</td>
+      </tr>
+      <tr>
+        <td class="X17">15</td>
+        <td class="X18">Trứng vịt</td>
+        <td class="X17">1276.2</td>
+        <td class="X17">87.8</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">95.9</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">6.8</td>
+        <td class="X17">0.675230<span style="display:none">769230769</span></td>
+        <td class="X17">0.7107<span style="display:none">69230769231</span></td>
+        <td class="X17">37000</td>
+        <td class="X17">26298.4615384616</td>
+      </tr>
+      <tr>
+        <td class="X17">16</td>
+        <td class="X18">Than</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">0</td>
+        <td class="X17">2.55</td>
+        <td class="X17">2.55</td>
+        <td class="X17">6000</td>
+        <td class="X17">15300</td>
+      </tr>
+      <tr>
+        <td class="X17">17</td>
+        <td class="X18">Tôm đồng</td>
+        <td class="X17">1141.7</td>
+        <td class="X17">228.3</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">22.3</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">0</td>
+        <td class="X17">1.240961<span style="display:none">53846154</span></td>
+        <td class="X17">1.3788<span style="display:none">4615384615</span></td>
+        <td class="X17">100000</td>
+        <td class="X17">137884.615384615</td>
+      </tr>
+      <tr>
+        <td class="X17">18</td>
+        <td class="X18">Yomost</td>
+        <td class="X17">2826.9</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">169.6</td>
+        <td class="X17">&nbsp;</td>
+        <td class="X17">408.5</td>
+        <td class="X17">651.9</td>
+        <td class="X17">1.153846<span style="display:none">15384615</span></td>
+        <td class="X17">1.1538<span style="display:none">4615384615</span></td>
+        <td class="X17">230000</td>
+        <td class="X17">265384.615384615</td>
+      </tr>
+      <tr>
+        <td class="X19">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X21">&nbsp;</td>
+        <td class="X21">&nbsp;</td>
+        <td class="X22">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X23">&nbsp;</td>
+        <td class="X24">&nbsp;</td>
+        <td class="X25">K</td>
+        <td COLSPAN="2" class="X25">P</td>
+        <td COLSPAN="2" class="X25">L</td>
+        <td class="X25">G</td>
+        <td COLSPAN="3" class="X25">P:L:G</td>
+        <td class="X26">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X23">&nbsp;</td>
+        <td class="X27">Nhu cầu</td>
+        <td class="X24">21240</td>
+        <td COLSPAN="2" class="X28">690</td>
+        <td COLSPAN="2" class="X28">402</td>
+        <td class="X24">3717</td>
+        <td COLSPAN="3" class="X28">[13]:[17]:[70]</td>
+        <td class="X26">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X23">&nbsp;</td>
+        <td class="X27">Cung cấp</td>
+        <td class="X24">26870.<span style="display:none">6</span></td>
+        <td COLSPAN="2" class="X28">1178.2</td>
+        <td COLSPAN="2" class="X28">1051.3</td>
+        <td class="X24">4090.3</td>
+        <td COLSPAN="3" class="X28">[15.4]:[31]:[53.6]</td>
+        <td class="X26">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X23">&nbsp;</td>
+        <td ROWSPAN="2" class="X29">Tỉ lệ ĐV/TV (%)</td>
+        <td ROWSPAN="2" class="X28">&nbsp;</td>
+        <td class="X24">ĐV</td>
+        <td class="X24">TV</td>
+        <td class="X24">ĐV</td>
+        <td class="X24">TV</td>
+        <td ROWSPAN="2" class="X28">&nbsp;</td>
+        <td class="X30">&nbsp;</td>
+        <td class="X31">&nbsp;</td>
+        <td class="X32">&nbsp;</td>
+        <td class="X26">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X23">&nbsp;</td>
+        <td class="X24">50.9</td>
+        <td class="X24">49.1</td>
+        <td class="X24">41.4</td>
+        <td class="X24">58.6</td>
+        <td class="X30">&nbsp;</td>
+        <td class="X31">&nbsp;</td>
+        <td class="X32">&nbsp;</td>
+        <td class="X26">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X23">&nbsp;</td>
+        <td class="X27">Tỉ lệ đạt (%)</td>
+        <td class="X24">126.5</td>
+        <td COLSPAN="2" class="X28">170.8</td>
+        <td COLSPAN="2" class="X28">261.5</td>
+        <td class="X24">110</td>
+        <td class="X33">&nbsp;</td>
+        <td class="X20">&nbsp;</td>
+        <td class="X34">&nbsp;</td>
+        <td class="X26">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X2">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td class="X19">&nbsp;</td>
+        <td COLSPAN="3" class="X35">Tổ trưởng dinh dưỡng</td>
+      </tr>
+      <tr>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+        <td class="X36">&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>

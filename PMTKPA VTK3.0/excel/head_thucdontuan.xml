@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>MrTi</Author>
+  <LastAuthor>MrTi</LastAuthor>
+  <LastPrinted>2012-09-24T01:47:44Z</LastPrinted>
+  <Created>2012-09-24T01:37:53Z</Created>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9270</WindowHeight>
+  <WindowWidth>14355</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>75</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:CharSet="163"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="14" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="14" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="163" x:Family="Roman"
+    ss:Size="12"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="115.5"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="125.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s23"><Data ss:Type="String">{phong}</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s26"><Data ss:Type="String">{truong}</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:MergeAcross="3" ss:StyleID="s29"><Data ss:Type="String">THỰC ĐƠN TUẦN</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="8" ss:StyleID="s32"><Data ss:Type="String">{loai}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Thứ / Ngày</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Bữa chính 1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Bữa phụ</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Bữa chính 2</Data></Cell>
+   </Row>

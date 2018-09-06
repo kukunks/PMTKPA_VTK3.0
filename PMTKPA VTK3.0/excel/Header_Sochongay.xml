@@ -1,0 +1,50 @@
+﻿ <Worksheet ss:Name="{Name_sheet}">
+  <Table ss:ExpandedColumnCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="136.5"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="54"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="106.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="94.5"/>
+   <Column ss:Index="11" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="66"/>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s83"><Data ss:Type="String">{Phong}</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s83"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">{Truong}</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s84"/>
+   </Row>
+   <Row ss:Index="4" ss:Height="18.75">
+    <Cell ss:MergeAcross="7" ss:StyleID="s108"><Data ss:Type="String">SỔ ĐI CHỢ</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="7" ss:StyleID="s109"><Data ss:Type="String">{Ngay}</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:MergeDown="1" ss:StyleID="m31193280"><Data ss:Type="String">STT</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m31193300"><Data ss:Type="String">Tên thực phẩm</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m31193320"><Data ss:Type="String">Đơn vị</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s110"><Data ss:Type="String">Số lượng</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m31193360"><Data ss:Type="String">Tổng</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m31193056"><Data ss:Type="String">Đơn giá</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m31193076"><Data ss:Type="String">Thành tiền</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s72"><Data ss:Type="String">Nhà trẻ</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Mẫu giáo</Data></Cell>
+   </Row>
